@@ -6,8 +6,9 @@ layout: default
 <div class="row">
 	{% for x in postingan %}
 		<div class="col-xs-4 col-sm-2">
-			<a href="{{ x.url | replace: '/', '' }}">
+			<a class="list-aplikasi" href="{{ x.url | replace: '/', '' }}">
 				<p><img src="{{ x.icon }}" alt=""></p>
+      <p class="judul-aplikasi">{{ x.title }}</p>
 			</a>
 		</div>
 	{% endfor %}	
