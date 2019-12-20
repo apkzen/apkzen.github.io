@@ -10,4 +10,7 @@ blurb: Aplikasi yang bagus buat ngaji.
 download: https://github.com/mzaini30/apk/blob/master/Quran%20Pengajian.signed.apk
 ---
 
-Dengan aplikasi ini, kamu mudah ngaji.
+Aplikasi ini akan membantu kamu dalam memahami Quran. Fitur yang tersedia di aplikasi ini adalah:
+
+- Ukuran teks yang besar
+- Mudah menemukan ayat tertentu di Quran
