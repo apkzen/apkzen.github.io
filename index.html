@@ -7,7 +7,7 @@ layout: default
 	{% for x in postingan %}
 		<div class="col-xs-4 col-sm-2">
 			<a href="{{ x.url | replace: '/', '' }}">
-				<img src="{{ x.icon }}" alt="">
+				<img src="{{ x.icon }}" alt=""><br>
 			</a>
 		</div>
 	{% endfor %}	

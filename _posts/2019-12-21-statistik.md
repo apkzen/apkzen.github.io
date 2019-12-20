@@ -7,3 +7,4 @@ blurb: Cara cepat menemukan rata-rata.
 download: https://github.com/mzaini30/apk/raw/master/Statistik.signed.apk
 ---
 
+Bingung cara menemukan rata-rata dengan cepat? Aplikasi ini bisa membantumu.
