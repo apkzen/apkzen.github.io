@@ -7,7 +7,7 @@ screenshot:
   - https://telegra.ph/file/de6ad077f459ac9286ef0.png
   - https://telegra.ph/file/b6b6913757d96f08917b8.png
 blurb: Aplikasi yang bagus buat ngaji.
-download: https://github.com/mzaini30/apk/blob/master/Quran%20Pengajian.signed.apk
+download: https://github.com/mzaini30/apk/raw/master/Quran%20Pengajian.signed.apk
 ---
 
 Aplikasi ini akan membantu kamu dalam memahami Quran. Fitur yang tersedia di aplikasi ini adalah:
