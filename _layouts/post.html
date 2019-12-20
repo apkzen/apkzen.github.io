@@ -2,4 +2,36 @@
 layout: default
 ---
 
+<table class="table table-bordered">
+	<tbody>
+		<tr>
+			<td>
+				<img src="{{ page.icon }}" class="icon">
+			</td>
+			<td>
+				<h3 class="judul">{{ page.title }}</h3>
+				<p>{{ page.blurb }}</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+{% for x in page.screenshot %}
+	<p><img src="{{ x }}" alt=""></p>
+{% endfor %}
+
 {{ content }}
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+		<table class="table table-bordered">
+			<tbody>
+				<tr>
+					<td>
+						<a href="{{ page.download }}" class="btn btn-success">Download</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

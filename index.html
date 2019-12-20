@@ -2,4 +2,13 @@
 layout: default
 ---
 
-<h1>Hello World</h1>
+{% assign postingan = site.posts | sort: 'title' %}
+<div class="row">
+	{% for x in postingan %}
+		<div class="col-xs-4 col-sm-2">
+			<a href="{{ x.url | replace: '/', '' }}">
+				<img src="{{ x.icon }}" alt="">
+			</a>
+		</div>
+	{% endfor %}	
+</div>
