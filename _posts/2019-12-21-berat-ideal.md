@@ -1,4 +1,5 @@
 ---
+layout: post
 icon: https://telegra.ph/file/6e47a0d7b195da07bd2a9.png
 screenshot:
   - https://telegra.ph/file/62cd21facde1cae0d2c5f.png

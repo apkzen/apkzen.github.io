@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<style type="text/css">
+	body {
+		margin-bottom: 60px;
+	}
+</style>
+
 <table class="table table-bordered">
 	<tbody>
 		<tr>
@@ -19,7 +25,7 @@ layout: default
 {{ content }}
 
 {% for x in page.screenshot %}
-	<p><img src="{{ x }}" alt=""></p>
+	<p><img src="{{ x }}" alt="" class="screenshot"></p>
 {% endfor %}
 
 <div class="navbar navbar-default navbar-fixed-bottom">
