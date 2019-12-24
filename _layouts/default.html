@@ -33,9 +33,6 @@
 
 		.judul-aplikasi {
 		  text-align: center;
-		  white-space: nowrap;
-		  overflow: hidden;
-		  text-overflow: ellipsis;
 		}
 
 		.list-aplikasi,
@@ -49,6 +46,16 @@
 		.screenshot {
 			margin: auto;
 			display: block;
+		}
+
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.row > [class*='col-'] {
+			display: flex;
+			flex-direction: column;
 		}
 	</style>
 </head>
