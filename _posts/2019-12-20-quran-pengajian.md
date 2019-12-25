@@ -14,4 +14,11 @@ download: https://github.com/mzaini30/apk/raw/master/Quran%20Pengajian.signed.ap
 Aplikasi ini akan membantu kamu dalam memahami Quran. Fitur yang tersedia di aplikasi ini adalah:
 
 - Ukuran teks yang besar
+
+    Ukuran teks di dalam aplikasi ini sudah disesuaikan dengan ukuran teks yang nyaman untuk dibaca oleh orang dewasa. Sehingga, dengan ukuran teks yang besar, siapapun mampu membacanya dengan nyaman.
+
+- Letak terjemahan yang tepat
+
+    Posisi terjemahan Quran berada setelah tiap ayat. Sehingga, kamu bisa dengan mudah menemukan terjemahan Quran. Misalnya saja Quran surat ke-6 ayat ke-5, maka terjemahannya tepat di bawah ayat tersebut.
+
 - Mudah menemukan ayat tertentu di Quran
