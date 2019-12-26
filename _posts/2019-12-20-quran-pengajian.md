@@ -11,7 +11,7 @@ blurb: Aplikasi yang bagus buat ngaji.
 download: https://github.com/mzaini30/apk/raw/master/Quran%20Pengajian.signed.apk
 ---
 
-Aplikasi ini akan membantu kamu dalam memahami Quran. Fitur yang tersedia di aplikasi ini adalah:
+Aplikasi Quran ini sama seperti aplikasi Quran lainnya namun dengan beberapa keunggulan, yaitu:
 
 - Ukuran teks yang besar
 
@@ -22,3 +22,5 @@ Aplikasi ini akan membantu kamu dalam memahami Quran. Fitur yang tersedia di apl
     Posisi terjemahan Quran berada setelah tiap ayat. Sehingga, kamu bisa dengan mudah menemukan terjemahan Quran. Misalnya saja Quran surat ke-6 ayat ke-5, maka terjemahannya tepat di bawah ayat tersebut.
 
 - Mudah menemukan ayat tertentu di Quran
+
+	Untuk menemukan ayat tertentu di Quran, cukup mengetikkan nomor surat dan nomor ayat yang dipisah dengan titik. Misalnya: 3.11 (akan menunjukkan ke surat ke-3 ayat ke-11).
