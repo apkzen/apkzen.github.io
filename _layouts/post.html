@@ -22,11 +22,15 @@ layout: default
 	</tbody>
 </table>
 
+{% include iklan.html %}
+
 {{ content }}
 
 {% for x in page.screenshot %}
 	<p><img src="{{ x }}" alt="" class="screenshot"></p>
 {% endfor %}
+
+{% include iklan.html %}
 
 <div class="navbar navbar-default navbar-fixed-bottom">
 	<div class="container">

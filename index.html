@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include iklan.html %}
+
 {% assign postingan = site.posts | sort: 'title' %}
 <div class="row">
 	{% for x in postingan %}
@@ -14,6 +16,8 @@ layout: default
 		</div>
 	{% endfor %}	
 </div>
+
+{% include iklan.html %}
 
 <div class="navbar navbar-default navbar-fixed-bottom">
 	<div class="container">
