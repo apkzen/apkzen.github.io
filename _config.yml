@@ -2,3 +2,7 @@ plugins:
   - jekyll-feed
 
 permalink: /:title.html
+
+title: APK Zen
+description: Kumpulan aplikasi Android yang dibuat oleh Zen
+image: https://telegra.ph/file/4b2b57aa28ed4e3ba1e06.png
