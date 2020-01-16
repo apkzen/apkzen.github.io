@@ -3,8 +3,8 @@ layout: default
 ---
 
 <style type="text/css">
-	body {
-		a-margin-bottom: 60px;
+	.container {
+		max-width: 800px;
 	}
 </style>
 
@@ -12,7 +12,7 @@ layout: default
 	<tbody>
 		<tr>
 			<td>
-				<img src="{{ page.icon }}" class="icon">
+				<img src="{{ page.icon }}" class="icon block">
 			</td>
 			<td>
 				<h3 class="judul">{{ page.title }}</h3>
@@ -27,7 +27,7 @@ layout: default
 {{ content }}
 
 {% for x in page.screenshot %}
-	<p><img src="{{ x }}" alt="" class="screenshot"></p>
+	<p><img src="{{ x }}" alt="" class="screenshot thumbnail"></p>
 {% endfor %}
 
 {% include iklan.html %}
@@ -39,9 +39,6 @@ layout: default
 				<tr>
 					<td>
 						<a href="{{ page.download }}" class="btn btn-success">Download</a>
-					</td>
-					<td>
-						<a href="mailto:muhzaini30@gmail.com" class="btn btn-default">Email Me</a>
 					</td>
 				</tr>
 			</tbody>

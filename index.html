@@ -4,6 +4,12 @@ layout: default
 
 {% include iklan.html %}
 
+<style type="text/css">
+	body {
+		margin-bottom: 0;
+	}
+</style>
+
 {% assign postingan = site.posts | sort: 'title' %}
 <div class="row">
 	{% for x in postingan %}
@@ -18,17 +24,3 @@ layout: default
 </div>
 
 {% include iklan.html %}
-
-<div class="navbar navbar-default navbar-fixed-bottom">
-	<div class="container">
-		<table class="table table-bordered">
-			<tbody>
-				<tr>
-					<td>
-						<a href="mailto:muhzaini30@gmail.com" class="btn btn-default">Email Me</a>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</div>
