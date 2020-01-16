@@ -9,7 +9,7 @@ layout: default
 	{% for x in postingan %}
 		<div class="col-xs-4 col-sm-2">
 			<a class="list-aplikasi" href="{{ x.url | replace: '/', '' }}">
-				<p><img src="{{ x.icon }}" alt=""></p>
+				<p><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=250&url={{ x.icon }}" alt=""></p>
       			<p class="judul-aplikasi"><small>{{ x.title }}</small></p>
       			<br>
 			</a>
