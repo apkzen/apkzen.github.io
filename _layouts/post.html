@@ -12,7 +12,7 @@ layout: default
 	<tbody>
 		<tr>
 			<td>
-				<img src="{{ page.icon }}" class="icon block">
+				<img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=250&url={{ page.icon }}" class="icon block">
 			</td>
 			<td>
 				<h3 class="judul">{{ page.title }}</h3>
@@ -27,7 +27,7 @@ layout: default
 {{ content }}
 
 {% for x in page.screenshot %}
-	<p><img src="{{ x }}" alt="" class="screenshot thumbnail"></p>
+	<p><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=600&url={{ x }}" alt="" class="screenshot thumbnail"></p>
 {% endfor %}
 
 {% include iklan.html %}
